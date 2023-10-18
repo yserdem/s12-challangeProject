@@ -1,0 +1,297 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.App {
+  display: flex;
+  max-width: 100vw;
+  flex-direction: column;
+}
+
+.dark-mode {
+  background-color: #252128;
+  color: white;
+}
+
+.dark-mode .modeText {
+  color: #d9d9d9;
+}
+
+/* .dark-mode .modeText span {
+  color: white;
+} */
+
+.dark-mode .navName {
+  color: #6b7280;
+}
+
+.dark-mode .intro {
+  color: white;
+}
+
+.dark-mode .footerContainer {
+  background-color: #141414;
+}
+
+.dark-mode .heading {
+  color: #aebccf;
+}
+
+.dark-mode #lang {
+  color: #bab2e7;
+}
+
+.dark-mode .nav a:hover {
+  border: 1px solid #bab2e7;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.dark-mode .background {
+  background-color: white;
+}
+.dark-mode .background p {
+  color: #3730a3;
+}
+
+.dark-mode .upper-name {
+  color: #b7aaff;
+}
+
+.dark-mode .hire-button {
+  border: 1px solid #4338CA;
+  background: #e1e1ff;
+}
+
+.dark-mode .hire-button .whiteText {
+  color: black;
+}
+
+.dark-mode .hire-button:hover {
+  background-color: white;
+}
+.dark-mode .github-button:hover {
+  background-color: white;
+}
+.dark-mode .linkedin-button:hover {
+  background-color: white;
+}
+
+.dark-mode .hire-button:hover a {
+  color: black;
+}
+.dark-mode .github-button:hover a {
+  color: black;
+}
+.dark-mode .linkedin-button:hover a {
+  color: black;
+}
+
+.dark-mode .github-button {
+  background: #383838;
+  border: 1px solid #e1e1ff;
+}
+
+.dark-mode .linkedin-button {
+  background: #383838;
+  border: 1px solid #e1e1ff;
+}
+.dark-mode .buttons a {
+  color: #e1e1ff;
+}
+
+.dark-mode .heading-list {
+  color: #aebccf;
+}
+
+.dark-mode .js h3 {
+  color: #b7aaff;
+}
+
+.dark-mode .react h3 {
+  color: #b7aaff;
+}
+
+.dark-mode .node h3 {
+  color: #b7aaff;
+}
+
+.dark-mode .js p {
+  color: white;
+}
+
+.dark-mode .react p {
+  color: white;
+}
+
+.dark-mode .node p {
+  color: white;
+}
+
+.dark-mode .profile-heading {
+  color: #aebccf;
+}
+
+.dark-mode .content-heading {
+  color: #b7aaff;
+}
+
+.dark-mode .keys p {
+  color: white;
+}
+
+.dark-mode .values p {
+  color: white;
+}
+
+.dark-mode .lets {
+  color: #aebccf;
+}
+
+.dark-mode .footerInfo a {
+  color: #bab2e7;
+}
+
+.dark-mode .links-footer p {
+  color: #e1e1ff;
+}
+
+.dark-mode .links-footer a {
+  color: #17d18b;
+}
+
+.dark-mode .links-footer a:nth-of-type(2) {
+  color: #0ba6f6;
+}
+
+
